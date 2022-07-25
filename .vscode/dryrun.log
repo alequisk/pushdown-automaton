@@ -1,0 +1,8 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/alex/Documents/LFA/automato-de-pilha'
+g++ -c -Wall main.cpp -I inc/ -o obj/main.o
+g++ -c -Wall lib/Transition.cpp -I inc/ -o obj/Transition.o
+g++ -c -Wall lib/Graph.cpp -I inc/ -o obj/Graph.o
+g++ -o dist/app -std=c++17  -Wall obj/main.o obj/Transition.o obj/Graph.o
+make: Leaving directory '/home/alex/Documents/LFA/automato-de-pilha'
+ 

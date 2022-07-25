@@ -1,0 +1,6 @@
+./obj/*
+./data/*
+./dist/*
+!./dist/.gitkeep
+!./data/example.in
+!./obj/.gitkeep
