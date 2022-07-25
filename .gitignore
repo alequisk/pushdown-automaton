@@ -1,6 +1,7 @@
 ./obj/*
 ./data/*
 ./dist/*
+./.vsocode/
 !./dist/.gitkeep
 !./data/example.in
 !./obj/.gitkeep
